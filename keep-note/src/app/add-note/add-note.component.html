@@ -1,0 +1,10 @@
+<form id="form">
+    <h2 id="head">Add New Note</h2> <br>
+    <div>
+        <input type="text" placeholder="Enter id" #id> 
+        <input type="text" placeholder="Enter title" name="title" #title> <br>
+    </div>
+    
+    <input type="text" placeholder="Enter contact" name="content" #content> <br>
+    <button (click)="saveNote(id.value,title.value,content.value)">Add Note</button>
+</form>

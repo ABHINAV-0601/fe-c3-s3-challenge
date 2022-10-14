@@ -1,0 +1,12 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2 card m-3" *ngFor="let note of notes" id="card">
+            <div class="p-3">
+                <h5>{{note.title}}</h5>
+                <p>{{note.content}}</p>
+            </div>
+
+        </div>
+    </div>
+</div>
